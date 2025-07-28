@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background-image: url("image/brown-background.png");
+      background-size: cover;
+      margin: 0;
+    }
+    .top {
+      background-image: url("image/green bar.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 90px;
+    }
+    table {
+      margin: 10px;
+    }
+    .seed {
+      width: 250px;
+    }
+    .seed-back {
+      width: 95%;
+      height: 270px;
+      position: relative;
+      left: 2.5%;
+      background-color: rgb(130, 74, 21);
+    }
+    .seed-name {
+        color: white;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .stock-num {
+        color: rgb(65, 65, 65);
+        font-weight: bold;
+        font-size: larger;
+    }
+    .cost {
+        color: red;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .box {
+      width: 200px;
+      position: relative;
+      left: 600%;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="top"></div>
+  <div class="seed-back">
+    <table>
+    <tr>
+      <td rowspan="3">
+        <img src="image/carrot.png" alt="carrot" class="seed">
+      </td>
+      <td class="seed-name">Carrot Seed</td>
+    </tr>
+    <tr>
+      <td class="stock-num">x0 Stock</td>
+    </tr>
+    <tr>
+      <td class="cost">NO STOCK</td>
+      <td>
+        <img src="image/common.png" alt="common" class="box">
+      </td>
+    </tr>
+  </table>
+  </div>
+</body>
+</html>
